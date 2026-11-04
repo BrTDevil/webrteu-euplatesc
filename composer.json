@@ -1,13 +1,14 @@
 {
     "name": "webrteu/euplatesc",
-    "description": "EuPlatesc.ro payment integration for Laravel (Romania)",
+    "description": "EuPlatesc.ro driver for webrteu/payments (Laravel, Romania)",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "laravel",
         "romania",
-        "euplatesc",
-        "payments"
+        "payments",
+        "payment-gateway",
+        "euplatesc"
     ],
     "homepage": "https://github.com/BrTDevil/webrteu-euplatesc",
     "authors": [
@@ -22,7 +23,7 @@
         "illuminate/console": "^12.0|^13.0",
         "illuminate/http": "^12.0|^13.0",
         "illuminate/support": "^12.0|^13.0",
-        "webrteu/payments": "^0.1"
+        "webrteu/payments": "^1.0"
     },
     "require-dev": {
         "larastan/larastan": "^3.13",
